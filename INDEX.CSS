@@ -1,0 +1,42 @@
+body {
+
+    margin: 0;  
+    font-family: Arial, sans-serif;  
+    scroll-behavior: smooth; /* efeito suave ao clicar nas âncoras */  
+  }
+   
+  header {  
+    background-color: #000000;  
+    padding: 10px 0;  
+    position: fixed;  
+    top: 0;  
+    width: 100%;  
+    z-index: 1000;  
+  }
+   
+  .menu {  
+    display: flex;  
+    justify-content: center;  
+    gap: 10px;  
+  }
+   
+  .menu a {  
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+    padding: 10px;  
+  }
+   
+  .menu a:hover {  
+    background-color: #555;  
+    border-radius: 5px;  
+  }
+   
+  section {  
+    padding: 100px 20px;  
+    margin-top: 60px; /* espaço para o header fixo */
+  
+  }
+   h1{ 
+    color: white
+   }
